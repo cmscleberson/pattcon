@@ -1,0 +1,49 @@
+{% extends "base.html" %}
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+
+  {%block conteudo%}
+
+  Search Type :::: {{tsearch}}
+
+<br>
+
+Min Size :: {{minsize}}
+  <hr>
+
+  <br>
+<br>
+
+<b>
+::::Motifs List :::
+</b>
+
+
+<br><br>
+
+  {%for i in result%}
+  {{i}}<br>
+  {%endfor%}
+
+  <br><br>
+
+
+
+  {%endblock conteudo%}
+
+
+
+
+
+
+
+</body>
+</html>

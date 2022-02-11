@@ -1,0 +1,32 @@
+::Motivo 0 - LKS
+::Locals : 1685 a 1687
+::Species : 
+Specie: EPB84881.1 - Sequência LKS Alterações: 0
+Specie: OAD02504.1 - Sequência LKS Alterações: 0
+Specie: KAF1806889.1 - Sequência LKS Alterações: 0
+Specie: GAN04326.1 - Sequência LKS Alterações: 0
+Specie: XP 018299153.1 - Sequência L[I]S Alterações: 1
+Specie: KAF7730560.1 - Sequência L[I][D] Alterações: 2
+Specie: CDS10680.1 - Sequência L[V]S Alterações: 1
+Specie: ORZ24144.1 - Sequência L[V][H] Alterações: 2
+Specie: ORY00198.1 - Sequência [I][S][K] Alterações: 3
+Specie: SAM07018.1 - Sequência L[V][H] Alterações: 2
+Specie: RUS34668.1 - Sequência L[S][T] Alterações: 2
+Specie: ORX85369.1 - Sequência [I]K[Q] Alterações: 2
+----------------------------------------------------------------------------
+::Motivo 1 - EKALQANLACLDSMINVAGFRGS
+::Locals : 1873 a 1895
+::Species : 
+Specie: EPB84881.1 - Sequência EKALQANLACLDSMINVAGFRGS Alterações: 0
+Specie: OAD02504.1 - Sequência EKALQANLACLDSMINVAGFRGS Alterações: 0
+Specie: KAF1806889.1 - Sequência EKALQANLACLDSMINVAGFRGS Alterações: 0
+Specie: GAN04326.1 - Sequência EKALQANLACLDSMINVAGFRGS Alterações: 0
+Specie: XP 018299153.1 - Sequência [K][H]ALQ[H][T]LAC[I]DSMINV[S]GFRGS Alterações: 6
+Specie: KAF7730560.1 - Sequência [R]K[L]LQ[N][T]LACLDSMINV[S]GFRG[T] Alterações: 6
+Specie: CDS10680.1 - Sequência [R][Q][R]LQ[N][T]LACLDSMINVAGF[P]G[T] Alterações: 7
+Specie: ORZ24144.1 - Sequência [R][Q][H][Q][K][N][L]LAC[V]DSMINV[S]G[C][H]GS Alterações: 11
+Specie: ORY00198.1 - Sequência [-][-][-][-][-][-][-][-][-][-][-][-][-][-][-][-][-]A[D][L][H]G[H] Alterações: 21
+Specie: SAM07018.1 - Sequência [H][Q][H][Q][K][N][L]LACLDSM[L]NV[S]GF[H]G[T] Alterações: 11
+Specie: RUS34668.1 - Sequência [P]K[N]L[R][H][L][W][G][A][M]D[A]MIN[I][S]GF[T]GS Alterações: 13
+Specie: ORX85369.1 - Sequência [P]K[H]L[K][T][L][V][E]C[M][E][T][L][V][V][D][S][T][L][H]G[N] Alterações: 19
+----------------------------------------------------------------------------

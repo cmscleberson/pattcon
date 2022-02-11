@@ -1,0 +1,127 @@
+{% extends "base.html" %}
+{% load static %}
+
+
+<html>
+<head>
+<meta charset="UTF-8">
+
+
+
+<title>Insert title here</title>
+
+ {%block scrpt%}
+<script>
+
+	function pcon(frm)
+	{
+		if(frm.contpercent.value == "" || frm.conspercent.value == "" || frm.fileseq.value=="")
+		{
+		alert("All inputs are necessary");
+		return false;
+		}
+
+		}
+
+
+
+
+</script>
+
+    {%endblock scrpt%}
+
+</head>
+
+
+
+
+
+{%block conteudo%}
+
+
+
+
+		<form id="formindex" onsubmit="return pcon(this);" name="formindex" enctype="multipart/form-data" method="post" action="analise">
+
+			 {% csrf_token %}
+			        {{ form.as_p }}
+
+<center>
+ <table>
+  <tr>
+    <td class="table2">
+		<label class="description">Content Percent </label>
+		<input name="contpercent" id="contpercent" type="text" maxlength="255" value=""/>
+
+	</td>
+
+	  <td class="table2">
+		  <label class="description">Conservation Percent </label>
+	  <input name="conspercent" id="conspercent" type="text" maxlength="190" value=""/>
+	</td>
+
+
+    <td class="table2">
+		<label class="description">Open File FASTA </label>
+
+			<input id="fileseq" name="fileseq" class="element file" type="file"/>
+
+	</td>
+  </tr>
+
+	 <tr>
+
+		 <td class="table2">
+			 <input type="radio" id="largestmot" name="typesearch" value="largestmot"
+         checked>
+  			<label for="largestmot">Largests Motifs (Fast)</label>
+
+
+
+
+  			<input type="radio" id="minsizemotif" name="typesearch" value="minsizemotif">
+  			<label for="minsizemotif">Minimum Size (Slow)</label>
+			<input name="tammin" id="tammin" type="text" maxlength="190" value=""/>
+
+
+	</td>
+
+
+	 </tr>
+
+    </table>
+</center>
+
+
+
+
+
+
+
+
+
+
+
+
+			<br><br>
+
+			<input id="analisecamp" class="buttons" name="submit" type="submit"  value="Search" style="width: 90px" />
+
+
+<br>
+
+
+
+
+
+</form>
+{%endblock conteudo%}
+
+
+
+
+
+
+
+</body>
+</html>
